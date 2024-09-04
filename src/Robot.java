@@ -48,16 +48,16 @@ public class Robot {
 
     public void stepForward() {
         switch (dir) {
-            case Direction.UP:
+            case UP:
                 y++;
                 break;
-            case Direction.DOWN:
+            case DOWN:
                 y--;
                 break;
-            case Direction.LEFT:
+            case LEFT:
                 x--;
                 break;
-            case Direction.RIGHT:
+            case RIGHT:
                 x++;
                 break;
         }

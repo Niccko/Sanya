@@ -1,4 +1,4 @@
 
 public interface RobotConnectionManager {
-    RobotConnection getConnection();
+    RobotConnection getConnection() throws RobotConnectionException;
 }
